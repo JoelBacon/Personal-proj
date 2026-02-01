@@ -14,7 +14,7 @@ st.markdown("""
     
     .main-title {
         font-size: 4rem;
-        color: #ff1493;
+        color: ##000000;
         text-align: center;
         font-family: 'Pacifico', cursive;
         margin-bottom: 2rem;
@@ -24,7 +24,7 @@ st.markdown("""
     
     .success-message {
         font-size: 3rem;
-        color: #ff1493;
+        color: #000000;
         text-align: center;
         font-family: 'Pacifico', cursive;
         animation: fadeIn 0.5s ease;
