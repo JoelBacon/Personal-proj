@@ -163,5 +163,4 @@ if not st.session_state.answered:
         st.info(messages[attempt_index])
 
 else:
-    st.markdown('<div class="emoji-big">🎉</div>', unsafe_allow_html=True)
     st.markdown('<h1 class="success-message">YAYAYAYAAYAYYY MWAHHHH YOURE MINE MWEHEHEHE...sorry i just got excited</h1>', unsafe_allow_html=True)
