@@ -156,7 +156,6 @@ if not st.session_state.answered:
             "I can do this all day",
             "Im just a baby",
             "Pretty please?????? with a cherry on top",
-            "Do it for the dilfs, the daddy, the daddy version me",
             "BEBBEEEEEEE im not giving up"
         ]
         attempt_index = min(st.session_state.no_attempts - 1, len(messages) - 1)
