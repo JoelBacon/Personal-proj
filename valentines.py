@@ -138,16 +138,16 @@ if not st.session_state.answered:
             }}
         </style>
         """, unsafe_allow_html=True)
-        st.button("Mhm", on_click=click_yes, use_container_width=True, key="yes_btn")
+        st.button("Mhm", on_click=click_yes, use_container_width=True, key="yes_button")
     
     if st.session_state.no_attempts > 0:
         positions = [col1, col2, col3]
         random_col = random.choice(positions)
         with random_col:
-            st.button("No", on_click=click_no, use_container_width=True, key="no_btn")
+            st.button("M-m", on_click=click_no, use_container_width=True, key="no_button")
     else:
         with col1:
-            st.button("No", on_click=click_no, use_container_width=True, key="no_btn")
+            st.button("M-m", on_click=click_no, use_container_width=True, key="no_button")
     
     if st.session_state.no_attempts > 0:
         st.markdown("---")
